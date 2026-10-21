@@ -48,15 +48,100 @@ Model weights (~1.05 GB), environments, and upstream source trees are excluded.
   evaluator, and environment step code; documented the data flow.
 - Compared fixed-seed runs with and without deterministic PyTorch/cuDNN settings.
 
-The curated repository adds portable launchers, corrected trace plotting,
-offline result checks, bilingual documentation, and file provenance. Project-local
-scripts were present in the original workspace; no Git history establishes sole
-authorship of every line. See [provenance and changes](notes/provenance.md) and
+I carried out this study with substantial ChatGPT assistance. The repository
+combines upstream LeRobot components with project-local evaluation scripts;
+code and documentation were added or revised with AI assistance during the
+experiments and curation. Curation adds portable launchers, corrected trace
+plotting, offline result checks, bilingual documentation, and file provenance.
+See [provenance and changes](notes/provenance.md) and
 [upstream attribution](THIRD_PARTY_NOTICES.md).
 
-## 4. Setup and Reproduction
+## 4. Experiments and Results
 
-### 4.1 Inspect archived results without a model
+### 4.1 Motivation
+
+I wanted to understand how visual observations become actions and why the policy
+executes only part of a generated action chunk before replanning. In PushT videos,
+I noticed the pusher sometimes appeared to deviate from its intended path while
+continuing queued actions. I hypothesized that reducing `n_action_steps` from 8
+to 4 might use recent observations sooner, correct deviations more promptly, and
+improve success. This motivated the comparison of execution length and replanning
+frequency below.
+
+### 4.2 Recorded evaluations
+
+Values below are calculated from the existing `eval_info.json` files, not from
+new evaluation. Both comparison groups use episode seeds 1000–1004, horizon 16,
+two observations, and 100 DDPM denoising steps. The baseline uses seeds 1000–1002.
+
+| Recorded run | n_action_steps | Episodes | Successes | Success (%) | Avg. max reward | Eval time (s) |
+| --- | --- | --- | --- | --- | --- | --- |
+| pusht-first-experiment-20261013 | 8 | 3 | 3 | 100.0 | 1.000000 | 101.505 |
+| dp-steps8-5ep | 8 | 5 | 3 | 60.0 | 0.996139 | 183.962 |
+| dp-steps4-5ep | 4 | 5 | 1 | 20.0 | 0.962637 | 459.651 |
+
+Sources: [baseline](results/pusht-first-experiment-20261013/eval_info.json),
+[8-step group](results/dp-steps8-5ep/eval_info.json),
+[4-step group](results/dp-steps4-5ep/eval_info.json).
+All 13 recorded runs, including additional checks and failures, are listed in
+[summary.csv](results/summary.csv); the table is not a pooled success estimate.
+
+The four-step group's 1/5 successes versus 3/5 for eight steps did not support my
+initial hypothesis that more frequent replanning would improve success.
+These are exploratory results with only five episodes per comparison group and
+one recorded batch per setting. They do **not** demonstrate that eight steps are
+generally better. The longer four-step runtime includes more frequent sampling
+and different episode lengths; it is not a controlled latency benchmark.
+Total reward is also affected by episode length and should not be treated as a
+standalone measure of task completion.
+
+### 4.3 Repeatability and GPU evidence
+
+Two ordinary fixed-seed, four-step, single-episode runs (`dp-repro-a/b`) both
+succeeded, but action/state traces differ: 153 versus 154 calls. With deterministic
+settings (`dp-det-a/b`), both succeeded with 165 calls and byte-identical
+action/state JSONL files. Rewards are **not exactly identical**: their maximum
+absolute difference is `3.3306690738754696e-16`. This supports a limited same-machine
+repeatability observation, not bitwise determinism of the entire pipeline.
+The differing ordinary runs prompted me to examine diffusion sampling randomness,
+seed setup, and GPU determinism; these records do not isolate the original
+divergence to a single cause.
+See [computed comparison](results/reproducibility.json) and the archived logs.
+
+The baseline [GPU record](results/pusht-first-experiment-20261013/gpu_evidence.json)
+reports strict loading, 561 CUDA action calls, peak allocated memory 3327.67 MiB,
+and peak reserved memory 3344.00 MiB. PyTorch memory and whole-GPU `nvidia-smi`
+samples measure different things; neither is a universal resource requirement.
+
+## 5. Key Observations
+
+- Observation images become `[1,3,96,96]` float32 tensors, with pusher state
+  `[1,2]`, before entering the CUDA policy.
+- DDPM generates a horizon of 16 actions; the policy queues 4 or 8 actions and
+  returns one `[1,2]` target position per environment step. Observations update
+  every step, while diffusion sampling waits for the action queue to empty.
+- A shorter execution chunk replans more frequently but did not improve success
+  in this small recorded comparison. Fixed seeds alone did not yield identical
+  ordinary CUDA rollouts.
+- In some failed runs, I noticed repeated reversals or continued pushing near the
+  target. These raised questions about action-chunk transitions and control near
+  the goal, but the available evidence does not establish their cause.
+- Trace plots show pusher position and action targets, not object pose or contact
+  forces. They support inspection of execution behavior, not a causal diagnosis.
+
+I learned to distinguish a hypothesis from a measured result, and a visible
+trajectory difference from its explanation. Controlling variables matters;
+a few success rates and videos cannot establish general policy performance.
+
+![Corrected X-axis trace from the failed four-step run, steps 201–300](results/figures/pusher_x_last100.svg)
+
+This figure was regenerated from existing records during curation; it is not a
+new rollout. Further implementation details are in the shared
+[source-reading notes](notes/source-reading.md).
+
+## 6. Setup and Reproduction
+
+### 6.1 Inspect archived results without a model
 
 From the repository root, Python 3.12+ is sufficient; these commands use only
 the standard library and do not start simulation or download anything:
@@ -78,7 +163,7 @@ python3 scripts/plot_trace.py \
   runs/pusher_x.svg --axis x
 ```
 
-### 4.2 Recreate an evaluation environment
+### 6.2 Recreate an evaluation environment
 
 Use WSL/Linux with an NVIDIA driver and CUDA-capable PyTorch. With `uv` available,
 the following commands create a separate environment and install the historical
@@ -99,7 +184,7 @@ The snapshot is not a fresh resolver lock or a guarantee of future wheel
 availability. Curation checked the existing environment but did not test a clean
 installation. No PushT training dataset is required for evaluation.
 
-### 4.3 Obtain the checkpoint and run evaluation
+### 6.3 Obtain the checkpoint and run evaluation
 
 If the model already exists, set `MODEL_DIR` to that directory. Otherwise, this
 optional command downloads only the pinned model configuration and weights:
@@ -139,67 +224,6 @@ loading, and refuse existing output directories. `PYTHON` optionally overrides
 the default `.venv/bin/python`. Historical runtime depends on hardware; changing
 the action chunk changes diffusion RNG consumption as well as replanning frequency.
 
-## 5. Experiments and Results
-
-### 5.1 Recorded evaluations
-
-Values below are calculated from the existing `eval_info.json` files, not from
-new evaluation. Both comparison groups use episode seeds 1000–1004, horizon 16,
-two observations, and 100 DDPM denoising steps. The baseline uses seeds 1000–1002.
-
-| Recorded run | n_action_steps | Episodes | Successes | Success (%) | Avg. max reward | Eval time (s) |
-| --- | --- | --- | --- | --- | --- | --- |
-| pusht-first-experiment-20261013 | 8 | 3 | 3 | 100.0 | 1.000000 | 101.505 |
-| dp-steps8-5ep | 8 | 5 | 3 | 60.0 | 0.996139 | 183.962 |
-| dp-steps4-5ep | 4 | 5 | 1 | 20.0 | 0.962637 | 459.651 |
-
-Sources: [baseline](results/pusht-first-experiment-20261013/eval_info.json),
-[8-step group](results/dp-steps8-5ep/eval_info.json),
-[4-step group](results/dp-steps4-5ep/eval_info.json).
-All 13 recorded runs, including additional checks and failures, are listed in
-[summary.csv](results/summary.csv); the table is not a pooled success estimate.
-
-These are exploratory results with only five episodes per comparison group and
-one recorded batch per setting. They do **not** demonstrate that eight steps are
-generally better. The longer four-step runtime includes more frequent sampling
-and different episode lengths; it is not a controlled latency benchmark.
-Total reward is also affected by episode length and should not be treated as a
-standalone measure of task completion.
-
-### 5.2 Repeatability and GPU evidence
-
-Two ordinary fixed-seed, four-step, single-episode runs (`dp-repro-a/b`) both
-succeeded, but action/state traces differ: 153 versus 154 calls. With deterministic
-settings (`dp-det-a/b`), both succeeded with 165 calls and byte-identical
-action/state JSONL files. Rewards are **not exactly identical**: their maximum
-absolute difference is `3.3306690738754696e-16`. This supports a limited same-machine
-repeatability observation, not bitwise determinism of the entire pipeline.
-See [computed comparison](results/reproducibility.json) and the archived logs.
-
-The baseline [GPU record](results/pusht-first-experiment-20261013/gpu_evidence.json)
-reports strict loading, 561 CUDA action calls, peak allocated memory 3327.67 MiB,
-and peak reserved memory 3344.00 MiB. PyTorch memory and whole-GPU `nvidia-smi`
-samples measure different things; neither is a universal resource requirement.
-
-## 6. Key Observations
-
-- Observation images become `[1,3,96,96]` float32 tensors, with pusher state
-  `[1,2]`, before entering the CUDA policy.
-- DDPM generates a horizon of 16 actions; the policy queues 4 or 8 actions and
-  returns one `[1,2]` target position per environment step. Observations update
-  every step, while diffusion sampling waits for the action queue to empty.
-- A shorter execution chunk replans more frequently but did not improve success
-  in this small recorded comparison. Fixed seeds alone did not yield identical
-  ordinary CUDA rollouts.
-- Trace plots show pusher position and action targets, not object pose or contact
-  forces. They support inspection of execution behavior, not a causal diagnosis.
-
-![Corrected X-axis trace from the failed four-step run, steps 201–300](results/figures/pusher_x_last100.svg)
-
-This figure was regenerated from existing records during curation; it is not a
-new rollout. Further implementation details are in the shared
-[source-reading notes](notes/source-reading.md).
-
 ## 7. Limitations and Acknowledgments
 
 There is no training, fine-tuning, new algorithm, real-robot deployment, or
@@ -212,11 +236,10 @@ The curated wrapper additionally saves per-episode reward files for future runs.
 
 Basic syntax, link, metric, provenance, ignore-rule and artifact checks were run;
 no clean installation or fresh rollout was performed during curation. See the
-[validation report](notes/validation.md). Both README languages use the same
-code blocks, tables, figures, videos, and result files.
+[validation report](notes/validation.md). Both README languages use identical
+code blocks and table data, with shared figures, videos, and result files.
 
 Credit for the algorithm belongs to the [Diffusion Policy authors](https://diffusion-policy.cs.columbia.edu/),
 and for the pretrained model, framework and environment to their upstream
 maintainers. See [third-party notices](THIRD_PARTY_NOTICES.md) for attribution
-and license scope. This repository was prepared locally for review; nothing was
-published during curation.
+and license scope.

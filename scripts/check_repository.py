@@ -40,8 +40,11 @@ def main():
     navigation = "[English](README.md) | [简体中文](README.zh-CN.md)"
     assert en.startswith(navigation) and zh.startswith(navigation)
     assert re.findall(r"```[\s\S]*?```", en) == re.findall(r"```[\s\S]*?```", zh)
-    assert [line for line in en.splitlines() if line.startswith("|")] == [
-        line for line in zh.splitlines() if line.startswith("|")]
+    en_table = [line for line in en.splitlines() if line.startswith("|")]
+    zh_table = [line for line in zh.splitlines() if line.startswith("|")]
+    assert en_table[0] == '| Recorded run | n_action_steps | Episodes | Successes | Success (%) | Avg. max reward | Eval time (s) |'
+    assert zh_table[0] == '| 运行记录 | 动作执行步数 | 回合数 | 成功数 | 成功率（%） | 平均最大奖励 | 评估耗时（秒） |'
+    assert en_table[1:] == zh_table[1:], "README result rows must match"
     assert len(re.findall(r"^## ", en, re.M)) == len(re.findall(r"^## ", zh, re.M)) == 7
     links = lambda text: re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", text)
     assert links(en) == links(zh), "README link/media targets must match in order"
