@@ -1,0 +1,1094 @@
+[
+  {
+    "source": "results/dp-det-a/end_time.txt",
+    "source_sha256": "9ba97ffa77f003a88c12bb775e7deb45f2de443ec97c7e00592485647b914230",
+    "destination": "results/dp-det-a/end_time.txt",
+    "destination_sha256": "9ba97ffa77f003a88c12bb775e7deb45f2de443ec97c7e00592485647b914230",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/eval.log",
+    "source_sha256": "ec001a99de46bd79cb6474c114e0df5db60aff6a52f8308313c5f78e7e66a565",
+    "destination": "results/dp-det-a/eval.log",
+    "destination_sha256": "f201be8c1f6cd09161631a9530bd9456fe5164c48be95fd1769678b1c573ef06",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/dp-det-a/gpu_evidence.json",
+    "source_sha256": "48a88b6e5f6b33929279120c26497844fd1528f8191759b6e42577b58d4ce5f9",
+    "destination": "results/dp-det-a/gpu_evidence.json",
+    "destination_sha256": "48a88b6e5f6b33929279120c26497844fd1528f8191759b6e42577b58d4ce5f9",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-det-a/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/eval_info.json",
+    "source_sha256": "8e6accd5f54f0d76f7d017d88ef590283b5fb68c4253a2651dba5e2c24c96650",
+    "destination": "results/dp-det-a/eval_info.json",
+    "destination_sha256": "25317ff867cc9305e320fe974bbd277bd44b17ae44b0119afc2cc049b35ea316",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-det-a/start_time.txt",
+    "source_sha256": "c3f70d4b4bade446001c2303cbf3ef59afc18f69c786807fc132bc2ba0e7d723",
+    "destination": "results/dp-det-a/start_time.txt",
+    "destination_sha256": "c3f70d4b4bade446001c2303cbf3ef59afc18f69c786807fc132bc2ba0e7d723",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/observation_action_trace.json",
+    "source_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "destination": "results/dp-det-a/observation_action_trace.json",
+    "destination_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/action_step_trace.jsonl",
+    "source_sha256": "57086a6b9c15e74b1cd4bd262db9a95b0e991111fff70fda90b99b86b819625c",
+    "destination": "results/dp-det-a/action_step_trace.jsonl",
+    "destination_sha256": "57086a6b9c15e74b1cd4bd262db9a95b0e991111fff70fda90b99b86b819625c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/reward_trace.json",
+    "source_sha256": "ee631e0975ec585960af9df5d9f71e7a449786a5f3325e7e18c05f8bd6d5f531",
+    "destination": "results/dp-det-a/reward_trace.json",
+    "destination_sha256": "ee631e0975ec585960af9df5d9f71e7a449786a5f3325e7e18c05f8bd6d5f531",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/gpu_samples.csv",
+    "source_sha256": "1d229caf4641fcec58d9a6404e82750c6b1c5b4d0a23c8b2a542ba22e7fa034d",
+    "destination": "results/dp-det-a/gpu_samples.csv",
+    "destination_sha256": "1d229caf4641fcec58d9a6404e82750c6b1c5b4d0a23c8b2a542ba22e7fa034d",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-a/videos/eval_episode_0.mp4",
+    "source_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "destination": "results/dp-det-a/videos/eval_episode_0.mp4",
+    "destination_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/end_time.txt",
+    "source_sha256": "e9f614944a30280330d0f0765665556ce3b3427dc9719ae87bd7409b420affc3",
+    "destination": "results/dp-det-b/end_time.txt",
+    "destination_sha256": "e9f614944a30280330d0f0765665556ce3b3427dc9719ae87bd7409b420affc3",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/eval.log",
+    "source_sha256": "e11b7daafe6139b1c8a4b6a081ed8c9aba92e2430a36f6e6e4e25ae62afd4a56",
+    "destination": "results/dp-det-b/eval.log",
+    "destination_sha256": "34f7d7652b3bd0e9b9e1b2fcf13bcb3644ab691be245fab4cd3e05f499ff44d4",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/dp-det-b/gpu_evidence.json",
+    "source_sha256": "fb19448e6bbb87d59ceb219b99e4a798a4c632cadbf01501acec4a0f54dda9f0",
+    "destination": "results/dp-det-b/gpu_evidence.json",
+    "destination_sha256": "fb19448e6bbb87d59ceb219b99e4a798a4c632cadbf01501acec4a0f54dda9f0",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-det-b/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/eval_info.json",
+    "source_sha256": "1bee833c55762492d5159085348dc08c7a7454e763cd5bee83d4b27a9aecdd97",
+    "destination": "results/dp-det-b/eval_info.json",
+    "destination_sha256": "8851d5bda7f84e3b9b5acb381f2c278c8b074de8a1fcefeea5fc5f042aac10f6",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-det-b/start_time.txt",
+    "source_sha256": "93c992ee9b9e1f8f882d3f0c5f7bab442954cff92a7387c445b860de2d7c754b",
+    "destination": "results/dp-det-b/start_time.txt",
+    "destination_sha256": "93c992ee9b9e1f8f882d3f0c5f7bab442954cff92a7387c445b860de2d7c754b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/observation_action_trace.json",
+    "source_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "destination": "results/dp-det-b/observation_action_trace.json",
+    "destination_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/action_step_trace.jsonl",
+    "source_sha256": "57086a6b9c15e74b1cd4bd262db9a95b0e991111fff70fda90b99b86b819625c",
+    "destination": "results/dp-det-b/action_step_trace.jsonl",
+    "destination_sha256": "57086a6b9c15e74b1cd4bd262db9a95b0e991111fff70fda90b99b86b819625c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/reward_trace.json",
+    "source_sha256": "56755e4d798d3831520e5812c068e6be3dde13fa32fda2f4cc6ad7bb2c7f7b7c",
+    "destination": "results/dp-det-b/reward_trace.json",
+    "destination_sha256": "56755e4d798d3831520e5812c068e6be3dde13fa32fda2f4cc6ad7bb2c7f7b7c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/gpu_samples.csv",
+    "source_sha256": "4d7ec0a55843d5b82d139bcfdf9bdef713271c4c32c6324fe10bbc3ca6774fc1",
+    "destination": "results/dp-det-b/gpu_samples.csv",
+    "destination_sha256": "4d7ec0a55843d5b82d139bcfdf9bdef713271c4c32c6324fe10bbc3ca6774fc1",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-det-b/videos/eval_episode_0.mp4",
+    "source_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "destination": "results/dp-det-b/videos/eval_episode_0.mp4",
+    "destination_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/end_time.txt",
+    "source_sha256": "51247cb3353dd3f367337e1fe8f5cc50b3550f818baffb1cf5d8b976183b730f",
+    "destination": "results/dp-independent-01/end_time.txt",
+    "destination_sha256": "51247cb3353dd3f367337e1fe8f5cc50b3550f818baffb1cf5d8b976183b730f",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/eval.log",
+    "source_sha256": "4828f57c88449abbf6c14230229d91770ca5565f02138c54ef09c31ab8c5ab69",
+    "destination": "results/dp-independent-01/eval.log",
+    "destination_sha256": "58471d503645575cd3b86d3ef269c3cdf81094f53b72e9681befa69a4b6fa61a",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/dp-independent-01/gpu_evidence.json",
+    "source_sha256": "5082377b7e8fb856f65a8af833cc35547b37ba23bb817b19a78f818788daf8c5",
+    "destination": "results/dp-independent-01/gpu_evidence.json",
+    "destination_sha256": "5082377b7e8fb856f65a8af833cc35547b37ba23bb817b19a78f818788daf8c5",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-independent-01/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/eval_info.json",
+    "source_sha256": "b6997e057ce7536c890e3b05b4ef8bdef5a8b11c87a891b93695c78687baa0f9",
+    "destination": "results/dp-independent-01/eval_info.json",
+    "destination_sha256": "ad7b0a876773ea0068ba9a9cbb512e73f6c1d3c228e04e634d1e8dfca5926d4c",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/start_time.txt",
+    "source_sha256": "3892a2ca8e42422a9a50fde8608189448b3839da3c0e840f98ac18eb5b4bc67a",
+    "destination": "results/dp-independent-01/start_time.txt",
+    "destination_sha256": "3892a2ca8e42422a9a50fde8608189448b3839da3c0e840f98ac18eb5b4bc67a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/observation_action_trace.json",
+    "source_sha256": "b595866527e103630ca3070286b0819fda7c5b46e98786211dd2e0c8d7c5d2c2",
+    "destination": "results/dp-independent-01/observation_action_trace.json",
+    "destination_sha256": "b595866527e103630ca3070286b0819fda7c5b46e98786211dd2e0c8d7c5d2c2",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/gpu_samples.csv",
+    "source_sha256": "4a9afa1511fb1bc8c288ab5833b1f0549bff3da9168a6cba729a71d179a6aa45",
+    "destination": "results/dp-independent-01/gpu_samples.csv",
+    "destination_sha256": "4a9afa1511fb1bc8c288ab5833b1f0549bff3da9168a6cba729a71d179a6aa45",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-independent-01/videos/eval_episode_0.mp4",
+    "source_sha256": "c1a3f628f9982b0506aedb4b7e30b449ea8590c95a805e8c4e46fbcb4f066d85",
+    "destination": "results/dp-independent-01/videos/eval_episode_0.mp4",
+    "destination_sha256": "c1a3f628f9982b0506aedb4b7e30b449ea8590c95a805e8c4e46fbcb4f066d85",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/end_time.txt",
+    "source_sha256": "4a4803cef52835c3a66986ee58984dca08f869622256b9973434d4884123cf21",
+    "destination": "results/dp-repro-a/end_time.txt",
+    "destination_sha256": "4a4803cef52835c3a66986ee58984dca08f869622256b9973434d4884123cf21",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/eval.log",
+    "source_sha256": "c3133dd85dbc2f513336e7dfc8fd8502fe91df0f244fec98ddf176e603135d1f",
+    "destination": "results/dp-repro-a/eval.log",
+    "destination_sha256": "f51290448b8093f8afd92c994ac32221a867d8c7ab6685d9c52c85c82591ec24",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/dp-repro-a/gpu_evidence.json",
+    "source_sha256": "06ebc99ce199514b2424077ebbf11c181c5de370a8f842661dac394f18e8ed9e",
+    "destination": "results/dp-repro-a/gpu_evidence.json",
+    "destination_sha256": "06ebc99ce199514b2424077ebbf11c181c5de370a8f842661dac394f18e8ed9e",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-repro-a/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/eval_info.json",
+    "source_sha256": "1d614789582951b92038085b607f35303cc9c2486fc232dd4ae318d0841d8cd9",
+    "destination": "results/dp-repro-a/eval_info.json",
+    "destination_sha256": "9cda83a4f2e7247638cb826ff0fc824deb054d2b52032116304a9eda97be2d2b",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/start_time.txt",
+    "source_sha256": "bf21e7ba70cb2531a54ed4e6e87cc2fe4b5a4640b7e51836d82743abc90665eb",
+    "destination": "results/dp-repro-a/start_time.txt",
+    "destination_sha256": "bf21e7ba70cb2531a54ed4e6e87cc2fe4b5a4640b7e51836d82743abc90665eb",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/observation_action_trace.json",
+    "source_sha256": "5f38cdacea1b320fc0ad62adabed6acccc27b9454d4cc56e0089821634487ccd",
+    "destination": "results/dp-repro-a/observation_action_trace.json",
+    "destination_sha256": "5f38cdacea1b320fc0ad62adabed6acccc27b9454d4cc56e0089821634487ccd",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/action_step_trace.jsonl",
+    "source_sha256": "1afb7288747bde8ee864e50e92449e2edba01555265bd29d7e1e89c5e6466c7f",
+    "destination": "results/dp-repro-a/action_step_trace.jsonl",
+    "destination_sha256": "1afb7288747bde8ee864e50e92449e2edba01555265bd29d7e1e89c5e6466c7f",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/reward_trace.json",
+    "source_sha256": "04560f4c45f9d108567333065ed8231d049510a6a4af4c6712c75aae6489cb07",
+    "destination": "results/dp-repro-a/reward_trace.json",
+    "destination_sha256": "04560f4c45f9d108567333065ed8231d049510a6a4af4c6712c75aae6489cb07",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/gpu_samples.csv",
+    "source_sha256": "815ed8cb7a7fa12859fec4a311d38ea2d7403738601737a789de210964692e61",
+    "destination": "results/dp-repro-a/gpu_samples.csv",
+    "destination_sha256": "815ed8cb7a7fa12859fec4a311d38ea2d7403738601737a789de210964692e61",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-a/videos/eval_episode_0.mp4",
+    "source_sha256": "b833e5bd0aff1fd5bb4aec8d074da1eb284a3d5aa2025eac4ed32192599bfd03",
+    "destination": "results/dp-repro-a/videos/eval_episode_0.mp4",
+    "destination_sha256": "b833e5bd0aff1fd5bb4aec8d074da1eb284a3d5aa2025eac4ed32192599bfd03",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/end_time.txt",
+    "source_sha256": "592abe8fd874121cfd29fe85bcb6a3341cf75974e866e08caf6971287605b267",
+    "destination": "results/dp-repro-b/end_time.txt",
+    "destination_sha256": "592abe8fd874121cfd29fe85bcb6a3341cf75974e866e08caf6971287605b267",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/eval.log",
+    "source_sha256": "de4efd0279382189162983663e7e63de1309e67d7b916df32c792d7228b4a105",
+    "destination": "results/dp-repro-b/eval.log",
+    "destination_sha256": "43b8ff63b64182be39c7ebedbfcba77747205ca4dff40c7fa09734bba20b76ce",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/dp-repro-b/gpu_evidence.json",
+    "source_sha256": "fc4f2b2d575cd8ac345f3c03ca3f7c8cf35bbaea7268f69dd990d9d2a7532403",
+    "destination": "results/dp-repro-b/gpu_evidence.json",
+    "destination_sha256": "fc4f2b2d575cd8ac345f3c03ca3f7c8cf35bbaea7268f69dd990d9d2a7532403",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-repro-b/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/eval_info.json",
+    "source_sha256": "bd8740054f03e9513b1e12fab6093b58bbd77884cf22f1c74dd6ab8b85eee995",
+    "destination": "results/dp-repro-b/eval_info.json",
+    "destination_sha256": "76e3d8e228de77d4e61e3a358d242e3cb0ae1a16d34ad5f57ff96db9ee954808",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/start_time.txt",
+    "source_sha256": "999309985747f3438e76fe645197b86a75322cc544c3f3d6e90999203c10262f",
+    "destination": "results/dp-repro-b/start_time.txt",
+    "destination_sha256": "999309985747f3438e76fe645197b86a75322cc544c3f3d6e90999203c10262f",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/observation_action_trace.json",
+    "source_sha256": "12e9a435954de73376fcfe36be7d1aa2c1322e6553f3e7cc145b868b1f27adb7",
+    "destination": "results/dp-repro-b/observation_action_trace.json",
+    "destination_sha256": "12e9a435954de73376fcfe36be7d1aa2c1322e6553f3e7cc145b868b1f27adb7",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/action_step_trace.jsonl",
+    "source_sha256": "fe0e1a46a5ae1d0a92004e4023b31db0e8fb0bd2038226850c8a628a4c3f44dc",
+    "destination": "results/dp-repro-b/action_step_trace.jsonl",
+    "destination_sha256": "fe0e1a46a5ae1d0a92004e4023b31db0e8fb0bd2038226850c8a628a4c3f44dc",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/reward_trace.json",
+    "source_sha256": "88b7aa4e020d0104a7c8c1dcf56fc1c0399b07a33d90f8bfde47dc2d034b71c2",
+    "destination": "results/dp-repro-b/reward_trace.json",
+    "destination_sha256": "88b7aa4e020d0104a7c8c1dcf56fc1c0399b07a33d90f8bfde47dc2d034b71c2",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/gpu_samples.csv",
+    "source_sha256": "6bbded3cacd4d4266ce134f6d3dd4e3484c1c893bbb1413d3cfd6e8116494440",
+    "destination": "results/dp-repro-b/gpu_samples.csv",
+    "destination_sha256": "6bbded3cacd4d4266ce134f6d3dd4e3484c1c893bbb1413d3cfd6e8116494440",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-repro-b/videos/eval_episode_0.mp4",
+    "source_sha256": "58752035b5ba03713fa6bc3b0aca352a93eb3097489823c325494f68c84077a6",
+    "destination": "results/dp-repro-b/videos/eval_episode_0.mp4",
+    "destination_sha256": "58752035b5ba03713fa6bc3b0aca352a93eb3097489823c325494f68c84077a6",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/end_time.txt",
+    "source_sha256": "7d49539cf9bddfffa54d828cca79b3d70be89ac0813062df14d134112519657d",
+    "destination": "results/dp-reward-steps4-seed1000/end_time.txt",
+    "destination_sha256": "7d49539cf9bddfffa54d828cca79b3d70be89ac0813062df14d134112519657d",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/eval.log",
+    "source_sha256": "1a604b3b4df7787ce588eb5006a04a9eb0cbf217d3a61d16f4c0f46706236a9f",
+    "destination": "results/dp-reward-steps4-seed1000/eval.log",
+    "destination_sha256": "33bf917fcd79e7e98536fa8f2835a262421add2510002cc692c560297fae59b5",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/gpu_evidence.json",
+    "source_sha256": "0dc0c2c460c672706a3385e838332f9abe22e11e7ae6fd54af08f73aaac06858",
+    "destination": "results/dp-reward-steps4-seed1000/gpu_evidence.json",
+    "destination_sha256": "0dc0c2c460c672706a3385e838332f9abe22e11e7ae6fd54af08f73aaac06858",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-reward-steps4-seed1000/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/eval_info.json",
+    "source_sha256": "595f0373e9a31ae1a5ac60b606590456764493b2d87314034ca9219b1c8a33e5",
+    "destination": "results/dp-reward-steps4-seed1000/eval_info.json",
+    "destination_sha256": "cb9fdba2d417f5296cfa3923153961b78548e9cfc0e57c6b198e7e66aa1f3cff",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/start_time.txt",
+    "source_sha256": "94346a063d0d2ce319a948c3fcc1b4148b10a78f869e0c9c6c655db96819dd00",
+    "destination": "results/dp-reward-steps4-seed1000/start_time.txt",
+    "destination_sha256": "94346a063d0d2ce319a948c3fcc1b4148b10a78f869e0c9c6c655db96819dd00",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/observation_action_trace.json",
+    "source_sha256": "c1deff9539adaa60f760526c21631ea0b6adc98d8be6372ed552859904369bf9",
+    "destination": "results/dp-reward-steps4-seed1000/observation_action_trace.json",
+    "destination_sha256": "c1deff9539adaa60f760526c21631ea0b6adc98d8be6372ed552859904369bf9",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/action_step_trace.jsonl",
+    "source_sha256": "fb6bd4788bb32437c97471231573353078c141a0d692fe1ee39efd0ba1c62fd2",
+    "destination": "results/dp-reward-steps4-seed1000/action_step_trace.jsonl",
+    "destination_sha256": "fb6bd4788bb32437c97471231573353078c141a0d692fe1ee39efd0ba1c62fd2",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/reward_trace.json",
+    "source_sha256": "c2bbdcc6c8aa4cf1bbb41590df55a2e2573cdbb70578c1fecc78e4890d3d3941",
+    "destination": "results/dp-reward-steps4-seed1000/reward_trace.json",
+    "destination_sha256": "c2bbdcc6c8aa4cf1bbb41590df55a2e2573cdbb70578c1fecc78e4890d3d3941",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/gpu_samples.csv",
+    "source_sha256": "73afe1c37208a6453e0f3d5a5139013a3013b829a013a1e6d0a6ebd09047ea32",
+    "destination": "results/dp-reward-steps4-seed1000/gpu_samples.csv",
+    "destination_sha256": "73afe1c37208a6453e0f3d5a5139013a3013b829a013a1e6d0a6ebd09047ea32",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-reward-steps4-seed1000/videos/eval_episode_0.mp4",
+    "source_sha256": "e9426531bc2c5bfc7247b1f10753e37a15b6f28760666a48ab8cc1c29d942f29",
+    "destination": "results/dp-reward-steps4-seed1000/videos/eval_episode_0.mp4",
+    "destination_sha256": "e9426531bc2c5bfc7247b1f10753e37a15b6f28760666a48ab8cc1c29d942f29",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/end_time.txt",
+    "source_sha256": "ad11cc95f288c20f2371564b57a97b9ecd76129c5c8814670835311f772df308",
+    "destination": "results/dp-steps4-5ep/end_time.txt",
+    "destination_sha256": "ad11cc95f288c20f2371564b57a97b9ecd76129c5c8814670835311f772df308",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/eval.log",
+    "source_sha256": "b4d3afcb20e4babde0b52e0ca14cdcc04bad74577e8358072e8f6e3596b4aa79",
+    "destination": "results/dp-steps4-5ep/eval.log",
+    "destination_sha256": "2f1aa0bd00267fea235a60b45519f7cad76aaadd7e680c2f4b1a8d11b496904f",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/dp-steps4-5ep/gpu_evidence.json",
+    "source_sha256": "fdca597b1fff567dfe8743ab2c09c53ea0ce2fd11fe69b05c1369cfb928b4a3c",
+    "destination": "results/dp-steps4-5ep/gpu_evidence.json",
+    "destination_sha256": "fdca597b1fff567dfe8743ab2c09c53ea0ce2fd11fe69b05c1369cfb928b4a3c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-steps4-5ep/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/eval_info.json",
+    "source_sha256": "c29fef4f8212ab12dd444633ca0ae27c3f914c8f5323ce40f9da4bbae0dd681a",
+    "destination": "results/dp-steps4-5ep/eval_info.json",
+    "destination_sha256": "71ae71ddbc910d32ef7d9ad1ab2832e0c4607770ebbc121d5257b6488c6db472",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/start_time.txt",
+    "source_sha256": "977ca0f61beab4e94dcf6b1d0fcca2f40b58984db79e9db51a511501c2b9999a",
+    "destination": "results/dp-steps4-5ep/start_time.txt",
+    "destination_sha256": "977ca0f61beab4e94dcf6b1d0fcca2f40b58984db79e9db51a511501c2b9999a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/observation_action_trace.json",
+    "source_sha256": "1748bdceb3c66db5f5ccb0d7816a1eb03c2bf7e282a7afa7dcf22682ec6441ee",
+    "destination": "results/dp-steps4-5ep/observation_action_trace.json",
+    "destination_sha256": "1748bdceb3c66db5f5ccb0d7816a1eb03c2bf7e282a7afa7dcf22682ec6441ee",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/gpu_samples.csv",
+    "source_sha256": "1606f57307207999ce3bccaec8d0b557a1aa5cc3b8f723f956e99bca17815d57",
+    "destination": "results/dp-steps4-5ep/gpu_samples.csv",
+    "destination_sha256": "1606f57307207999ce3bccaec8d0b557a1aa5cc3b8f723f956e99bca17815d57",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/videos/eval_episode_2.mp4",
+    "source_sha256": "8f4167d68393c989466b1cf544ddf1692e35210371bcbadae7cc8381d9ac9819",
+    "destination": "results/dp-steps4-5ep/videos/eval_episode_2.mp4",
+    "destination_sha256": "8f4167d68393c989466b1cf544ddf1692e35210371bcbadae7cc8381d9ac9819",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/videos/eval_episode_0.mp4",
+    "source_sha256": "4e39844f008c3bd2c43aa243cad36d503dbfa893832b179f957ded0f814090a2",
+    "destination": "results/dp-steps4-5ep/videos/eval_episode_0.mp4",
+    "destination_sha256": "4e39844f008c3bd2c43aa243cad36d503dbfa893832b179f957ded0f814090a2",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/videos/eval_episode_4.mp4",
+    "source_sha256": "f1e43859437dc88a8edd40e09e881a0d7851b3c523c9d3eb3119d56e0f13a571",
+    "destination": "results/dp-steps4-5ep/videos/eval_episode_4.mp4",
+    "destination_sha256": "f1e43859437dc88a8edd40e09e881a0d7851b3c523c9d3eb3119d56e0f13a571",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/videos/eval_episode_1.mp4",
+    "source_sha256": "1bef4c119474d8cb621cb98ea800dbe78423247d465f22021590c04ee68b39d8",
+    "destination": "results/dp-steps4-5ep/videos/eval_episode_1.mp4",
+    "destination_sha256": "1bef4c119474d8cb621cb98ea800dbe78423247d465f22021590c04ee68b39d8",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-5ep/videos/eval_episode_3.mp4",
+    "source_sha256": "175dc8f77f1185c9d99bf52005271cf9b121d29819602a2c09bdf115fcb910de",
+    "destination": "results/dp-steps4-5ep/videos/eval_episode_3.mp4",
+    "destination_sha256": "175dc8f77f1185c9d99bf52005271cf9b121d29819602a2c09bdf115fcb910de",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/end_time.txt",
+    "source_sha256": "25c5d9bac04c7af70ade79b04dfcfbb33a1e4f59a2ce8ead9bec4c6db80a0e08",
+    "destination": "results/dp-steps4-seed1000/end_time.txt",
+    "destination_sha256": "25c5d9bac04c7af70ade79b04dfcfbb33a1e4f59a2ce8ead9bec4c6db80a0e08",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/eval.log",
+    "source_sha256": "0c69d52c860191e9ca21a10ec5f218869f6558772e69ab5317f999338030da17",
+    "destination": "results/dp-steps4-seed1000/eval.log",
+    "destination_sha256": "f4845c71bbc78170e6a3ec6361670ded4bbc1ba8696760d00f2541c4f6e85927",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/gpu_evidence.json",
+    "source_sha256": "e101c0a1ec9ecebb1d0917b603fa2e45f516c91b1f918707c383014adcf70aa1",
+    "destination": "results/dp-steps4-seed1000/gpu_evidence.json",
+    "destination_sha256": "e101c0a1ec9ecebb1d0917b603fa2e45f516c91b1f918707c383014adcf70aa1",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-steps4-seed1000/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/eval_info.json",
+    "source_sha256": "56489b131732c726c8414ad51f236fabc6769609b5ec6f41877bf4ee3f4da876",
+    "destination": "results/dp-steps4-seed1000/eval_info.json",
+    "destination_sha256": "768044cf3eb4083ad312d4ac4ee7e42da2acc3f9fe1845b575ec82d027e46500",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/start_time.txt",
+    "source_sha256": "92823f9d04b8bf053965f123bb5d89281ec3e1dd0b012525e920d62840b71123",
+    "destination": "results/dp-steps4-seed1000/start_time.txt",
+    "destination_sha256": "92823f9d04b8bf053965f123bb5d89281ec3e1dd0b012525e920d62840b71123",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/observation_action_trace.json",
+    "source_sha256": "59f99116dcbc39fd64cb96823053f3b8c599099864d83bfedf2678e096012045",
+    "destination": "results/dp-steps4-seed1000/observation_action_trace.json",
+    "destination_sha256": "59f99116dcbc39fd64cb96823053f3b8c599099864d83bfedf2678e096012045",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/gpu_samples.csv",
+    "source_sha256": "539bf1b60fd926468326d53d3d1c47649108d30e07e0d5c9b6d30ccc178108d6",
+    "destination": "results/dp-steps4-seed1000/gpu_samples.csv",
+    "destination_sha256": "539bf1b60fd926468326d53d3d1c47649108d30e07e0d5c9b6d30ccc178108d6",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps4-seed1000/videos/eval_episode_0.mp4",
+    "source_sha256": "ab0fe9af510955a236ff2b07d7edf203e00d0f3e59da53b5ed61a89a8e42c1d9",
+    "destination": "results/dp-steps4-seed1000/videos/eval_episode_0.mp4",
+    "destination_sha256": "ab0fe9af510955a236ff2b07d7edf203e00d0f3e59da53b5ed61a89a8e42c1d9",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/end_time.txt",
+    "source_sha256": "450d917b0b7147f3b2ca8e688a65c5d3352362b6d5a4221979a42f4695b14754",
+    "destination": "results/dp-steps8-5ep/end_time.txt",
+    "destination_sha256": "450d917b0b7147f3b2ca8e688a65c5d3352362b6d5a4221979a42f4695b14754",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/eval.log",
+    "source_sha256": "da6ea5b7cedb991d60a034f44032f982933974b3c26f182b5d522be7d8b1b50b",
+    "destination": "results/dp-steps8-5ep/eval.log",
+    "destination_sha256": "48eef2d4657b341c7d2278ad5aa0378dd9e0fa7a1d646d132f225f053d788ddf",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/dp-steps8-5ep/gpu_evidence.json",
+    "source_sha256": "681d52e47ba9f7d36ecc21382a518da1c28a4db0bf7afbcd388c225f91c85cc4",
+    "destination": "results/dp-steps8-5ep/gpu_evidence.json",
+    "destination_sha256": "681d52e47ba9f7d36ecc21382a518da1c28a4db0bf7afbcd388c225f91c85cc4",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-steps8-5ep/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/eval_info.json",
+    "source_sha256": "5110799090299e978ffe1090742c241aa410d43c2e9d4b819962bee587f92948",
+    "destination": "results/dp-steps8-5ep/eval_info.json",
+    "destination_sha256": "1cae69f74d9aefed88c41f4f74b49bea868955253571dc608455d183e3121e43",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/start_time.txt",
+    "source_sha256": "901717a0800d2623dccb14ea3f0bf8d169efb16e569a5b8dad3129476ff64aeb",
+    "destination": "results/dp-steps8-5ep/start_time.txt",
+    "destination_sha256": "901717a0800d2623dccb14ea3f0bf8d169efb16e569a5b8dad3129476ff64aeb",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/observation_action_trace.json",
+    "source_sha256": "4b1217cdbe83eb539e651f9e5887fea81515d6b357d08f91bc1c1a2039cfb945",
+    "destination": "results/dp-steps8-5ep/observation_action_trace.json",
+    "destination_sha256": "4b1217cdbe83eb539e651f9e5887fea81515d6b357d08f91bc1c1a2039cfb945",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/gpu_samples.csv",
+    "source_sha256": "e6c3314967522fbb52508621709ebbbe78191821fa3f3acb559431d64a95023a",
+    "destination": "results/dp-steps8-5ep/gpu_samples.csv",
+    "destination_sha256": "e6c3314967522fbb52508621709ebbbe78191821fa3f3acb559431d64a95023a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/videos/eval_episode_2.mp4",
+    "source_sha256": "39ffeabfe32954456606e318a247edea58ff1e065f7915168b21c6a568add90b",
+    "destination": "results/dp-steps8-5ep/videos/eval_episode_2.mp4",
+    "destination_sha256": "39ffeabfe32954456606e318a247edea58ff1e065f7915168b21c6a568add90b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/videos/eval_episode_0.mp4",
+    "source_sha256": "2558df892df8a96276a1ed8787c81fa97965b3439db4a4d4d38169727b1d4acc",
+    "destination": "results/dp-steps8-5ep/videos/eval_episode_0.mp4",
+    "destination_sha256": "2558df892df8a96276a1ed8787c81fa97965b3439db4a4d4d38169727b1d4acc",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/videos/eval_episode_4.mp4",
+    "source_sha256": "f9cac3c5c8cfbc4aceb88bb2f88cd332caf6ccbb79ff6b821b19130dc46cf5f7",
+    "destination": "results/dp-steps8-5ep/videos/eval_episode_4.mp4",
+    "destination_sha256": "f9cac3c5c8cfbc4aceb88bb2f88cd332caf6ccbb79ff6b821b19130dc46cf5f7",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/videos/eval_episode_1.mp4",
+    "source_sha256": "2cef95984bb5efd5e74ef9e833dc004e1bd85bade1b326c17943da7a8be494da",
+    "destination": "results/dp-steps8-5ep/videos/eval_episode_1.mp4",
+    "destination_sha256": "2cef95984bb5efd5e74ef9e833dc004e1bd85bade1b326c17943da7a8be494da",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-steps8-5ep/videos/eval_episode_3.mp4",
+    "source_sha256": "f8e4aec3ad05fc511ca8f1ba03cc647454b643efe5806c4048decc440e6964ed",
+    "destination": "results/dp-steps8-5ep/videos/eval_episode_3.mp4",
+    "destination_sha256": "f8e4aec3ad05fc511ca8f1ba03cc647454b643efe5806c4048decc440e6964ed",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/end_time.txt",
+    "source_sha256": "718ca7de46d75ffe940a4142ef4aa6b853282db8c2a1eda2a8c24f94c5442bc5",
+    "destination": "results/dp-trace-steps4-seed1000/end_time.txt",
+    "destination_sha256": "718ca7de46d75ffe940a4142ef4aa6b853282db8c2a1eda2a8c24f94c5442bc5",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/eval.log",
+    "source_sha256": "0c40fc5e9fc7a71c97a2f3a49ab99dbe1d79587afb6ac0da24053fcd2d7b24b0",
+    "destination": "results/dp-trace-steps4-seed1000/eval.log",
+    "destination_sha256": "7932154422e88e863809e6479605feef0896b57b4e2ff2a295f70a612eac651b",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/gpu_evidence.json",
+    "source_sha256": "edaa57478f0adc910ba95b6645b45d1c457065a5b4e5d1ea584f2cca02ad7b29",
+    "destination": "results/dp-trace-steps4-seed1000/gpu_evidence.json",
+    "destination_sha256": "edaa57478f0adc910ba95b6645b45d1c457065a5b4e5d1ea584f2cca02ad7b29",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/dp-trace-steps4-seed1000/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/eval_info.json",
+    "source_sha256": "2c65e94a9e19f1a2109d3f2888e7910a117c9536442650c8590c377e29f71abb",
+    "destination": "results/dp-trace-steps4-seed1000/eval_info.json",
+    "destination_sha256": "5b4b0b7bfbb6e49034e0687a5b382274fdd184d805dd1eb340fbe5dd41e2a3a7",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/start_time.txt",
+    "source_sha256": "a1ea541ca084ae88fd1a02678d213fbc6396151b043b9e3256b6a82e3130f976",
+    "destination": "results/dp-trace-steps4-seed1000/start_time.txt",
+    "destination_sha256": "a1ea541ca084ae88fd1a02678d213fbc6396151b043b9e3256b6a82e3130f976",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/observation_action_trace.json",
+    "source_sha256": "57bbe1920060ab1f313047e6eb6f771616e24a4cb3b05370e4b54906b01aff71",
+    "destination": "results/dp-trace-steps4-seed1000/observation_action_trace.json",
+    "destination_sha256": "57bbe1920060ab1f313047e6eb6f771616e24a4cb3b05370e4b54906b01aff71",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/action_step_trace.jsonl",
+    "source_sha256": "36d49595c178c1ef54646988fbb4e5f6062fd77b449ff04317c5f35ebf2a0170",
+    "destination": "results/dp-trace-steps4-seed1000/action_step_trace.jsonl",
+    "destination_sha256": "36d49595c178c1ef54646988fbb4e5f6062fd77b449ff04317c5f35ebf2a0170",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/gpu_samples.csv",
+    "source_sha256": "7a81fe6e7e387b60c631bdf2885c329e237025b7b742fa63a7bdd1282b9043c3",
+    "destination": "results/dp-trace-steps4-seed1000/gpu_samples.csv",
+    "destination_sha256": "7a81fe6e7e387b60c631bdf2885c329e237025b7b742fa63a7bdd1282b9043c3",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/dp-trace-steps4-seed1000/videos/eval_episode_0.mp4",
+    "source_sha256": "4f759d88c956e51b2936e51089853fcd0b29ce0a7d209c43063618f197fe8a7b",
+    "destination": "results/dp-trace-steps4-seed1000/videos/eval_episode_0.mp4",
+    "destination_sha256": "4f759d88c956e51b2936e51089853fcd0b29ce0a7d209c43063618f197fe8a7b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/end_time.txt",
+    "source_sha256": "189da03ce21817c25df23b8eb21ea2cf48ce878eba4ce4edb1e0a3b0f1ac1ea8",
+    "destination": "results/pusht-first-experiment-20261013/end_time.txt",
+    "destination_sha256": "189da03ce21817c25df23b8eb21ea2cf48ce878eba4ce4edb1e0a3b0f1ac1ea8",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/eval.log",
+    "source_sha256": "33d021fdaefc99e75a603f3ea304aaf1bc35b94cee19a76099b5db81e64bbf57",
+    "destination": "results/pusht-first-experiment-20261013/eval.log",
+    "destination_sha256": "82388cf4f2a9379e4b806c2eae11ce6bc7a264f3e049edb4b28c85e1a4effca9",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/gpu_evidence.json",
+    "source_sha256": "f19b676b91d088487a04fba84401bc71c5c56818dc41763ba859322f2b7216d6",
+    "destination": "results/pusht-first-experiment-20261013/gpu_evidence.json",
+    "destination_sha256": "f19b676b91d088487a04fba84401bc71c5c56818dc41763ba859322f2b7216d6",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/pusht-first-experiment-20261013/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/eval_info.json",
+    "source_sha256": "33222c7fe4b4fe934653a2eb5a302906608fb962a0e5b230601670ecd700cf3b",
+    "destination": "results/pusht-first-experiment-20261013/eval_info.json",
+    "destination_sha256": "1913283cbf4713a45af2d5b4f4a5c92b2033165da49eb6af4a3be14de52ecf2c",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/start_time.txt",
+    "source_sha256": "c9ce1b3c98bc458a4065cd14e7576124e7d6ae642f0c883650c6009ad254d66b",
+    "destination": "results/pusht-first-experiment-20261013/start_time.txt",
+    "destination_sha256": "c9ce1b3c98bc458a4065cd14e7576124e7d6ae642f0c883650c6009ad254d66b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/observation_action_trace.json",
+    "source_sha256": "15d51b5954389557ee6ae67b2fd75f9f4754023786fbd0b33d32016becd2ecec",
+    "destination": "results/pusht-first-experiment-20261013/observation_action_trace.json",
+    "destination_sha256": "15d51b5954389557ee6ae67b2fd75f9f4754023786fbd0b33d32016becd2ecec",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/gpu_samples.csv",
+    "source_sha256": "00c20a72be9a984a2380aeb49fb6276ae06d88b16d36bd36535568645097a3a2",
+    "destination": "results/pusht-first-experiment-20261013/gpu_samples.csv",
+    "destination_sha256": "00c20a72be9a984a2380aeb49fb6276ae06d88b16d36bd36535568645097a3a2",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/videos/eval_episode_2.mp4",
+    "source_sha256": "e103c67aa0ec9602604518a9d2d54e84272f53e5ade00a329c2777f2a5317f33",
+    "destination": "results/pusht-first-experiment-20261013/videos/eval_episode_2.mp4",
+    "destination_sha256": "e103c67aa0ec9602604518a9d2d54e84272f53e5ade00a329c2777f2a5317f33",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/videos/eval_episode_0.mp4",
+    "source_sha256": "370a79ca1d55d85cb4795f0a8f0224a45c53f7681f38b3efbfa7787bde562f3c",
+    "destination": "results/pusht-first-experiment-20261013/videos/eval_episode_0.mp4",
+    "destination_sha256": "370a79ca1d55d85cb4795f0a8f0224a45c53f7681f38b3efbfa7787bde562f3c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/videos/eval_episode_1.mp4",
+    "source_sha256": "bd97a7b0248bbb8d3818ef3ad57cbbb84683c3a44a8f0c7d76ce5aae2c8842e9",
+    "destination": "results/pusht-first-experiment-20261013/videos/eval_episode_1.mp4",
+    "destination_sha256": "bd97a7b0248bbb8d3818ef3ad57cbbb84683c3a44a8f0c7d76ce5aae2c8842e9",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/end_time.txt",
+    "source_sha256": "7b290e983d5b8caf9a5780d4659697f7724fafbe461fabd35ac396a2248c2009",
+    "destination": "results/pusht-smoke/end_time.txt",
+    "destination_sha256": "7b290e983d5b8caf9a5780d4659697f7724fafbe461fabd35ac396a2248c2009",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/eval.log",
+    "source_sha256": "3a1ddb4b4f60ee99023715e4adf43c4b93cdc7673d6eead3d4f8eeb6f02fb930",
+    "destination": "results/pusht-smoke/eval.log",
+    "destination_sha256": "590be553a584ecf72fb1d4a340bc3741262e705b92a5b654af954eba9e886bca",
+    "transformation": "Private paths redacted; terminal progress lines removed; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "results/pusht-smoke/gpu_evidence.json",
+    "source_sha256": "231517cac561bb62d2ea3271c36ab15acfa7119ece0f33d746b08145f41ea507",
+    "destination": "results/pusht-smoke/gpu_evidence.json",
+    "destination_sha256": "231517cac561bb62d2ea3271c36ab15acfa7119ece0f33d746b08145f41ea507",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/pusht-smoke/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/eval_info.json",
+    "source_sha256": "507b8390357a3e281912c263cc821cea5b07c8d6a196e6d658ecba5f9fd4ceb8",
+    "destination": "results/pusht-smoke/eval_info.json",
+    "destination_sha256": "be536c28a3a8e9e37980f38a6f0fd95950a72fb449ce28d60f3fbb6af3fd323d",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/start_time.txt",
+    "source_sha256": "da485149a565f1271345a3686061e4867ab01075e9d85ae3074993877977fa05",
+    "destination": "results/pusht-smoke/start_time.txt",
+    "destination_sha256": "da485149a565f1271345a3686061e4867ab01075e9d85ae3074993877977fa05",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/observation_action_trace.json",
+    "source_sha256": "f317d6dedea8a0490ef0aea6a4f596627a912ac486743cecb1a65edf66d3c865",
+    "destination": "results/pusht-smoke/observation_action_trace.json",
+    "destination_sha256": "f317d6dedea8a0490ef0aea6a4f596627a912ac486743cecb1a65edf66d3c865",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/gpu_samples.csv",
+    "source_sha256": "f35549f8e8588bb27243066e9183ea1890bef61c24e9aef18ff189a780f94525",
+    "destination": "results/pusht-smoke/gpu_samples.csv",
+    "destination_sha256": "f35549f8e8588bb27243066e9183ea1890bef61c24e9aef18ff189a780f94525",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/videos/eval_episode_2.mp4",
+    "source_sha256": "8e390ae93cc156895e5f8e8a89c0d687b0deeaf0594eac5fcebd32e9bf3a89e4",
+    "destination": "results/pusht-smoke/videos/eval_episode_2.mp4",
+    "destination_sha256": "8e390ae93cc156895e5f8e8a89c0d687b0deeaf0594eac5fcebd32e9bf3a89e4",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/videos/eval_episode_0.mp4",
+    "source_sha256": "1f8ef2009f241831ffbecd962fdca1a3cf731a85105a4d0e8864793ceabb997d",
+    "destination": "results/pusht-smoke/videos/eval_episode_0.mp4",
+    "destination_sha256": "1f8ef2009f241831ffbecd962fdca1a3cf731a85105a4d0e8864793ceabb997d",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-smoke/videos/eval_episode_1.mp4",
+    "source_sha256": "abc90a174f74537e50226ca4c64f5a96b4b3584a084347417dcd664321c4d70e",
+    "destination": "results/pusht-smoke/videos/eval_episode_1.mp4",
+    "destination_sha256": "abc90a174f74537e50226ca4c64f5a96b4b3584a084347417dcd664321c4d70e",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/end_time.txt",
+    "source_sha256": "78b9dd8c1bf3fcc36782fbe534c922a35f41668da60bd35ad66a7e5d6c592b46",
+    "destination": "results/test-01/end_time.txt",
+    "destination_sha256": "78b9dd8c1bf3fcc36782fbe534c922a35f41668da60bd35ad66a7e5d6c592b46",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/eval.log",
+    "source_sha256": "5ac20e79042664a3e1d0dad947f9a44bfa7b50ed6ed533ef3009cdbbe40a5e23",
+    "destination": "results/test-01/eval.log",
+    "destination_sha256": "f704abe806fd0330b0a36d7d9fb5527774f3a98b42c0399e02c692fba78ad0a2",
+    "transformation": "Private paths redacted; terminal progress lines removed"
+  },
+  {
+    "source": "results/test-01/gpu_evidence.json",
+    "source_sha256": "3aa06ef51fe93f009c19d95b557eae8583d7c5310bddbe136ac05cb7e6320482",
+    "destination": "results/test-01/gpu_evidence.json",
+    "destination_sha256": "3aa06ef51fe93f009c19d95b557eae8583d7c5310bddbe136ac05cb7e6320482",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/exit_code.txt",
+    "source_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "destination": "results/test-01/exit_code.txt",
+    "destination_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/eval_info.json",
+    "source_sha256": "0aa211a968f2d778f94a0aab6f7449b3e2b5c10b7590e10c08af4f5f8acb4ec6",
+    "destination": "results/test-01/eval_info.json",
+    "destination_sha256": "a01b910c3a28e4aae1d0b8e50e1c138e0471d79c7d74ec03cd3d6e52052e15ac",
+    "transformation": "Video paths made repository-relative; metrics unchanged"
+  },
+  {
+    "source": "results/test-01/start_time.txt",
+    "source_sha256": "d637202e2504e8beef9d37e006a151a8eb877eaae9ef7d03c71193ea5c19992f",
+    "destination": "results/test-01/start_time.txt",
+    "destination_sha256": "d637202e2504e8beef9d37e006a151a8eb877eaae9ef7d03c71193ea5c19992f",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/observation_action_trace.json",
+    "source_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "destination": "results/test-01/observation_action_trace.json",
+    "destination_sha256": "04f5c337c1757e7e9ac0abbe8e008008d8b01e74e25bce0b789fc2c56f1cdd2a",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/action_step_trace.jsonl",
+    "source_sha256": "7ea7b914de4d2e6b1f48bfcce6aeae026b36ab5d57a03b2e4fd084ad36d28741",
+    "destination": "results/test-01/action_step_trace.jsonl",
+    "destination_sha256": "7ea7b914de4d2e6b1f48bfcce6aeae026b36ab5d57a03b2e4fd084ad36d28741",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/reward_trace.json",
+    "source_sha256": "0c3e623c270f36fd8813da90efdc3800d6c23e0564e7b84af5fb7519ce43ebbf",
+    "destination": "results/test-01/reward_trace.json",
+    "destination_sha256": "0c3e623c270f36fd8813da90efdc3800d6c23e0564e7b84af5fb7519ce43ebbf",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/gpu_samples.csv",
+    "source_sha256": "c5fe6f24f21f1b74a47cf1212bad54c7481dc1c159b90fca66e038946185a14c",
+    "destination": "results/test-01/gpu_samples.csv",
+    "destination_sha256": "c5fe6f24f21f1b74a47cf1212bad54c7481dc1c159b90fca66e038946185a14c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/videos/eval_episode_2.mp4",
+    "source_sha256": "c5ead6609bfee10f8cba784a2a6fef990ffe02cd4a91313e253dcc068b9cf9ab",
+    "destination": "results/test-01/videos/eval_episode_2.mp4",
+    "destination_sha256": "c5ead6609bfee10f8cba784a2a6fef990ffe02cd4a91313e253dcc068b9cf9ab",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/videos/eval_episode_0.mp4",
+    "source_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "destination": "results/test-01/videos/eval_episode_0.mp4",
+    "destination_sha256": "2eabc2862a020a45172353b5818774af7a0ad515d4cdb5738c5f47d65aa23a5b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/videos/eval_episode_4.mp4",
+    "source_sha256": "a2bd7721918b21fd3c05f6f6e1fa678e1e79cb485847d12095cef3ef730d099b",
+    "destination": "results/test-01/videos/eval_episode_4.mp4",
+    "destination_sha256": "a2bd7721918b21fd3c05f6f6e1fa678e1e79cb485847d12095cef3ef730d099b",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/videos/eval_episode_1.mp4",
+    "source_sha256": "32ef62d187f61e488a034adbf5ee3b6555142aa02d8fb3ec8f24a8c47fd55670",
+    "destination": "results/test-01/videos/eval_episode_1.mp4",
+    "destination_sha256": "32ef62d187f61e488a034adbf5ee3b6555142aa02d8fb3ec8f24a8c47fd55670",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/test-01/videos/eval_episode_3.mp4",
+    "source_sha256": "930d88319207d06b32c9763c29c2a4b699e095bec5c8e2b2ae65e9bbda4caee5",
+    "destination": "results/test-01/videos/eval_episode_3.mp4",
+    "destination_sha256": "930d88319207d06b32c9763c29c2a4b699e095bec5c8e2b2ae65e9bbda4caee5",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/pusht-first-experiment-20261013/rollout_preview.png",
+    "source_sha256": "0d894834bd94f5f4dc4e748f91f4c6dd7d837f4242dc6e2eadc29e2fdd37b76e",
+    "destination": "results/pusht-first-experiment-20261013/rollout_preview.png",
+    "destination_sha256": "0d894834bd94f5f4dc4e748f91f4c6dd7d837f4242dc6e2eadc29e2fdd37b76e",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/requirements-lock.txt",
+    "source_sha256": "ed8cb94dcf06f7e4569dd34a33f2718f464eda95003c0e8cc3dd49a12cb192ac",
+    "destination": "requirements-lock.txt",
+    "destination_sha256": "ed8cb94dcf06f7e4569dd34a33f2718f464eda95003c0e8cc3dd49a12cb192ac",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "results/preflight.json",
+    "source_sha256": "f459b6aace8c77b09a61163d0236ffb8856818abaee60acb66ae4235b265bf65",
+    "destination": "results/environment.json",
+    "destination_sha256": "11b735d3acd39ec35f2918b09da6db53b7c94805e2cdc7423465247bc23f21c2",
+    "transformation": "Historical preflight; private executable path redacted"
+  },
+  {
+    "source": "results/model_metadata.json",
+    "source_sha256": "7d9b6b1c179b24487b5290bf28b72ea87b39e5efc4f6c1e36bc15cc82e5a4c82",
+    "destination": "results/model_reference.json",
+    "destination_sha256": "1d94369d16faaf655d8c3eb105ac5a1177a5009324389c6989080c0309de3c4f",
+    "transformation": "Selected identity/revision/hash/license fields; local weight hash verified"
+  },
+  {
+    "source": "eval_cuda.py",
+    "source_sha256": "f1a2368b717cb2c53ee4369625554cc3c977e546131eae8fb0808ed42979a731",
+    "destination": "scripts/eval_cuda.py",
+    "destination_sha256": "f4646ed2b5912108d4c61be406ea1e99bf5d031fa18775b0787076e0948bc4b7",
+    "transformation": "Added per-episode reward files; inherited evaluation behavior retained; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "eval_cuda_deterministic.py",
+    "source_sha256": "52f757e61b87e76d28e77e05f80da01918453dd379a5fdd8e1a3b3de1b2dadff",
+    "destination": "scripts/eval_cuda_deterministic.py",
+    "destination_sha256": "da80e37178d8ad110526eed9590ba59a5d0bfa92640a9746daeb7093cb3dec25",
+    "transformation": "Added per-episode reward files; inherited evaluation behavior retained; trailing whitespace removed before first commit"
+  },
+  {
+    "source": "run_eval_action_steps.sh",
+    "source_sha256": "984e5d3d8fb58133d877b18c47cc4d4a0cd5ce558792bd803ee50eadaf430356",
+    "destination": "scripts/run_eval_action_steps.sh",
+    "destination_sha256": "c4d77530ae1ba5c2683bb2dfde5a129d643f68abccd3300bf0886f170262dd75",
+    "transformation": "Portable root/PYTHON/MODEL_DIR; runs/ output; invocation metadata; config precheck"
+  },
+  {
+    "source": "run_eval_deterministic.sh",
+    "source_sha256": "6dff8bc3bf5f5376ca3b645cae77429ccae07066df84dc8fc85dae0a94f4786d",
+    "destination": "scripts/run_eval_deterministic.sh",
+    "destination_sha256": "777f8aa52eca422a78f5da061fde8222ca023d1990b811d3579eccf74b8bc999",
+    "transformation": "Portable root/PYTHON/MODEL_DIR; runs/ output; invocation metadata; config precheck"
+  },
+  {
+    "source": "source-inspection/lerobot/lerobot-0.3.3.dist-info/licenses/LICENSE",
+    "source_sha256": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+    "destination": "licenses/lerobot-LICENSE.txt",
+    "destination_sha256": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+    "transformation": "Copied unchanged"
+  },
+  {
+    "source": "source-inspection/gym-pusht/gym_pusht-0.1.5.dist-info/LICENSE",
+    "source_sha256": "87a2e7a1e8568a9bea2f2d5ab8ee1d716faebcc946ddbdaef8da9e655f8b0b9d",
+    "destination": "licenses/gym-pusht-LICENSE.txt",
+    "destination_sha256": "87a2e7a1e8568a9bea2f2d5ab8ee1d716faebcc946ddbdaef8da9e655f8b0b9d",
+    "transformation": "Copied unchanged"
+  }
+]

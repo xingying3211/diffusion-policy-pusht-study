@@ -1,0 +1,21 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 109.59934519967007,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1000
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 109.59934519967007,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "eval_s": 41.50010085105896,
+    "eval_ep_s": 41.50010108947754
+  },
+  "video_paths": [
+    "results/dp-independent-01/videos/eval_episode_0.mp4"
+  ]
+}

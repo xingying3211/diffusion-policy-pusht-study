@@ -1,0 +1,37 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 62.88234435230737,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1000
+    },
+    {
+      "episode_ix": 1,
+      "sum_reward": 106.00653402008129,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1001
+    },
+    {
+      "episode_ix": 2,
+      "sum_reward": 129.08463535827468,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1002
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 99.32450457688778,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "eval_s": 101.50464463233948,
+    "eval_ep_s": 33.8348818620046
+  },
+  "video_paths": [
+    "results/pusht-first-experiment-20261013/videos/eval_episode_0.mp4",
+    "results/pusht-first-experiment-20261013/videos/eval_episode_1.mp4",
+    "results/pusht-first-experiment-20261013/videos/eval_episode_2.mp4"
+  ]
+}

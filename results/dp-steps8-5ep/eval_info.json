@@ -1,0 +1,53 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 62.89083151509556,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1000
+    },
+    {
+      "episode_ix": 1,
+      "sum_reward": 43.10052462521099,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1001
+    },
+    {
+      "episode_ix": 2,
+      "sum_reward": 36.410778500508655,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1002
+    },
+    {
+      "episode_ix": 3,
+      "sum_reward": 197.99354410530145,
+      "max_reward": 0.9830536440435425,
+      "success": false,
+      "seed": 1003
+    },
+    {
+      "episode_ix": 4,
+      "sum_reward": 127.35909294253969,
+      "max_reward": 0.9976401880029836,
+      "success": false,
+      "seed": 1004
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 93.55095433773127,
+    "avg_max_reward": 0.9961387664093053,
+    "pc_success": 60.0,
+    "eval_s": 183.96192526817322,
+    "eval_ep_s": 36.79238510131836
+  },
+  "video_paths": [
+    "results/dp-steps8-5ep/videos/eval_episode_0.mp4",
+    "results/dp-steps8-5ep/videos/eval_episode_1.mp4",
+    "results/dp-steps8-5ep/videos/eval_episode_2.mp4",
+    "results/dp-steps8-5ep/videos/eval_episode_3.mp4",
+    "results/dp-steps8-5ep/videos/eval_episode_4.mp4"
+  ]
+}

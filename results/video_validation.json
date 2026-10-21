@@ -1,0 +1,176 @@
+[
+  {
+    "path": "results/dp-det-a/videos/eval_episode_0.mp4",
+    "frames_decoded": 165,
+    "fps": 10.0,
+    "bytes": 68502
+  },
+  {
+    "path": "results/dp-det-b/videos/eval_episode_0.mp4",
+    "frames_decoded": 165,
+    "fps": 10.0,
+    "bytes": 68502
+  },
+  {
+    "path": "results/dp-independent-01/videos/eval_episode_0.mp4",
+    "frames_decoded": 214,
+    "fps": 10.0,
+    "bytes": 83698
+  },
+  {
+    "path": "results/dp-repro-a/videos/eval_episode_0.mp4",
+    "frames_decoded": 153,
+    "fps": 10.0,
+    "bytes": 64296
+  },
+  {
+    "path": "results/dp-repro-b/videos/eval_episode_0.mp4",
+    "frames_decoded": 154,
+    "fps": 10.0,
+    "bytes": 64838
+  },
+  {
+    "path": "results/dp-reward-steps4-seed1000/videos/eval_episode_0.mp4",
+    "frames_decoded": 157,
+    "fps": 10.0,
+    "bytes": 66094
+  },
+  {
+    "path": "results/dp-steps4-5ep/videos/eval_episode_0.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 102351
+  },
+  {
+    "path": "results/dp-steps4-5ep/videos/eval_episode_1.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 88750
+  },
+  {
+    "path": "results/dp-steps4-5ep/videos/eval_episode_2.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 73811
+  },
+  {
+    "path": "results/dp-steps4-5ep/videos/eval_episode_3.mp4",
+    "frames_decoded": 158,
+    "fps": 10.0,
+    "bytes": 61078
+  },
+  {
+    "path": "results/dp-steps4-5ep/videos/eval_episode_4.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 92203
+  },
+  {
+    "path": "results/dp-steps4-seed1000/videos/eval_episode_0.mp4",
+    "frames_decoded": 260,
+    "fps": 10.0,
+    "bytes": 107424
+  },
+  {
+    "path": "results/dp-steps8-5ep/videos/eval_episode_0.mp4",
+    "frames_decoded": 163,
+    "fps": 10.0,
+    "bytes": 68975
+  },
+  {
+    "path": "results/dp-steps8-5ep/videos/eval_episode_1.mp4",
+    "frames_decoded": 106,
+    "fps": 10.0,
+    "bytes": 47472
+  },
+  {
+    "path": "results/dp-steps8-5ep/videos/eval_episode_2.mp4",
+    "frames_decoded": 128,
+    "fps": 10.0,
+    "bytes": 50414
+  },
+  {
+    "path": "results/dp-steps8-5ep/videos/eval_episode_3.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 112289
+  },
+  {
+    "path": "results/dp-steps8-5ep/videos/eval_episode_4.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 117265
+  },
+  {
+    "path": "results/dp-trace-steps4-seed1000/videos/eval_episode_0.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 73938
+  },
+  {
+    "path": "results/pusht-first-experiment-20261013/videos/eval_episode_0.mp4",
+    "frames_decoded": 162,
+    "fps": 10.0,
+    "bytes": 68609
+  },
+  {
+    "path": "results/pusht-first-experiment-20261013/videos/eval_episode_1.mp4",
+    "frames_decoded": 170,
+    "fps": 10.0,
+    "bytes": 63934
+  },
+  {
+    "path": "results/pusht-first-experiment-20261013/videos/eval_episode_2.mp4",
+    "frames_decoded": 229,
+    "fps": 10.0,
+    "bytes": 80533
+  },
+  {
+    "path": "results/pusht-smoke/videos/eval_episode_0.mp4",
+    "frames_decoded": 199,
+    "fps": 10.0,
+    "bytes": 77167
+  },
+  {
+    "path": "results/pusht-smoke/videos/eval_episode_1.mp4",
+    "frames_decoded": 106,
+    "fps": 10.0,
+    "bytes": 45573
+  },
+  {
+    "path": "results/pusht-smoke/videos/eval_episode_2.mp4",
+    "frames_decoded": 177,
+    "fps": 10.0,
+    "bytes": 65349
+  },
+  {
+    "path": "results/test-01/videos/eval_episode_0.mp4",
+    "frames_decoded": 165,
+    "fps": 10.0,
+    "bytes": 68502
+  },
+  {
+    "path": "results/test-01/videos/eval_episode_1.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 85606
+  },
+  {
+    "path": "results/test-01/videos/eval_episode_2.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 80856
+  },
+  {
+    "path": "results/test-01/videos/eval_episode_3.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 84315
+  },
+  {
+    "path": "results/test-01/videos/eval_episode_4.mp4",
+    "frames_decoded": 300,
+    "fps": 10.0,
+    "bytes": 103209
+  }
+]

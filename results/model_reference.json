@@ -1,0 +1,8 @@
+{
+  "repo_id": "lerobot/diffusion_pusht",
+  "revision": "84a7c23178445c6bbf7e1a884ff497017910f653",
+  "weight_bytes": 1050862408,
+  "weight_sha256": "995d14d35db57d95c35ad9704c3d79c8612b7bc45f3877e5c46c2cdc516856a8",
+  "declared_license": "apache-2.0",
+  "local_weight_sha256_verified": true
+}

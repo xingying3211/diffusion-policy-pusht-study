@@ -1,0 +1,13 @@
+{
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "torch_cuda": "12.8",
+  "strict_checkpoint_loaded": true,
+  "select_action_calls": 157,
+  "cuda_observations_and_actions_verified": true,
+  "peak_allocated_mib": 3327.6689453125,
+  "peak_reserved_mib": 3344.0,
+  "process_elapsed_seconds": 62.95641336300105,
+  "eval_info_exists": true
+}

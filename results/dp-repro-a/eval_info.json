@@ -1,0 +1,21 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 59.652518764796156,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1000
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 59.652518764796156,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "eval_s": 54.63453483581543,
+    "eval_ep_s": 54.634536266326904
+  },
+  "video_paths": [
+    "results/dp-repro-a/videos/eval_episode_0.mp4"
+  ]
+}

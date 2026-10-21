@@ -1,0 +1,28 @@
+{
+  "ordinary": {
+    "action_state_trace_bytes_equal": false,
+    "action_state_trace_lengths": [
+      153,
+      154
+    ],
+    "reward_lengths": [
+      153,
+      154
+    ],
+    "reward_exact_equal": false,
+    "reward_max_abs_diff": null
+  },
+  "deterministic": {
+    "action_state_trace_bytes_equal": true,
+    "action_state_trace_lengths": [
+      165,
+      165
+    ],
+    "reward_lengths": [
+      165,
+      165
+    ],
+    "reward_exact_equal": false,
+    "reward_max_abs_diff": 3.3306690738754696e-16
+  }
+}
